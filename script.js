@@ -36,7 +36,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Data Analyst","Software Engineer"],
+        strings: ["Flutter Developer","Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
