@@ -256,21 +256,25 @@ section .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: 100%;
 }
 .skills .skills-content .right .box-container{
-    flex:1 1 40rem;
+    /* flex:1 1 40rem; */
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .skills .skills-content .right  .box-container .box{
-    flex:1 1 15rem;
+    /* flex:1 1 15rem; */
     background:#FC6A03;
     padding:2rem;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 220px;
+    text-align: center;
 }
 
 .skills .skills-content .right .box-container .box h3{
